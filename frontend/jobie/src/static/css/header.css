@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background:#09050D;
+    padding:4px 10px;
+}
+#brand-text{
+    font-family: 'Aboreto', cursive;
+    font-size: 2rem;
+    color: white;
+}
+#nav_brand{
+    display:inline-flex;
+    align-items:center;
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0.5rem 2rem;
+}
+.hamburger{
+    display: flex;
+    justify-content:space-evenly;
+    list-style:none;
+    gap:2rem;
+}
+.nav_links a{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+#employee,#employer{
+    font-weight: 600;
+}
+.nav_links{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.logout{
+    cursor: pointer;
+}
+#menu{
+    display: flex;
+    gap:20px;
+}
